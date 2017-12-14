@@ -1,0 +1,125 @@
+@import url("ning.css");
+
+.box{
+	width: 100%;
+	height: 4.34rem;
+	/* background: rgba(102, 103, 99, 0.61); */
+	position: relative;
+}
+.box1{
+	width: 100%;
+	height: 3.92rem;
+	background:rgba(102, 103, 99, 0.61);
+}
+
+.box2{
+	width: 100%;
+	height: 1.44rem;
+	/* background: rgba(102, 103, 99, 0.61); */
+	line-height: 1.44rem;
+
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 499997 */
+  src: url('https://at.alicdn.com/t/font_499997_w5jqa3oyx5z8h0k9.eot');
+  src: url('https://at.alicdn.com/t/font_499997_w5jqa3oyx5z8h0k9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_499997_w5jqa3oyx5z8h0k9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_499997_w5jqa3oyx5z8h0k9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_499997_w5jqa3oyx5z8h0k9.svg#iconfont') format('svg');
+}
+.box3{
+	width: 100%;
+	height: 2.5rem;
+	/* background: yellow; */
+	overflow: hidden;
+}
+.icon1{
+	font-size: 0.8rem;
+	color: white;
+    font-family: "iconfont";
+    margin-left: 0.6rem;
+    display: block;
+    float: left;
+}
+.box2 .icon1:nth-child(2){
+	font-size: 0.48rem;
+	float: right;
+	margin-right: 0.6rem;
+}
+.box2 .icon1:nth-child(3){
+	font-size: 0.6rem;
+	float: right;
+	margin-right: 0.64rem;
+}
+.box2 .icon1:nth-child(4){
+	font-size: 0.58rem;
+	float: right;
+	margin-right: 0.64rem;
+}
+.box4{
+	width: 2.52rem;
+	height: 2.52rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.48rem;
+}
+.box4 img{
+	width: 2.52rem;
+	height: 2.52rem;
+	border-radius: 0.1rem;
+}
+.box3 .a1{
+     font-size: 0.54rem;
+     color: white;
+     margin-top: 0.38rem;
+     display: block;
+     margin-left: 3.32rem;
+}
+.box3 .a2{
+     font-size: 0.3rem;
+     color: #eeeded;
+     margin-top: 0.21rem;
+     display: block;
+     margin-left: 3.32rem;
+}
+/* .box3 .box5{
+	background: #0097ff;
+	height: 0.44rem;
+	color: white;
+	font-size: 0.3rem;
+	line-height: 0.44rem;
+	width: 2.96rem;
+	border-radius: 0.08rem;
+	text-align: center;
+	margin-left: 3.32rem;
+	margin-top: 0.21rem;
+} */
+.box6{
+	border-bottom: 0.01rem solid #333;
+	width: 100%;
+	height: 1.36rem;
+	text-align: center;
+	line-height: 1.36rem;
+/* 	background: pink; */
+}
+.box6 .icon2{
+	font-size: 0.44rem;
+	color: red;
+	font-family: 'iconfont';
+    margin-left: 0.48rem;
+    display: block;
+    float: left;
+}
+.box6 a{
+	font-size: 0.4rem;
+	color: #a0a0a0;
+	display: block;
+	float: left;
+	margin-left: 0.2rem;
+}
+.box .icon2:nth-of-type(6){
+	font-size: 0.3rem;
+}
+.box .icon2:nth-of-type(5){
+	font-size: 0.5rem;
+}

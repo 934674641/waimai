@@ -1,0 +1,227 @@
+/*
+* @Author: Lenovo
+* @Date:   2017-12-07 16:16:56
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2017-12-14 17:22:57
+*/
+
+ @import url(ning.css);
+@font-face {
+  font-family: 'iconfont';  /* project id 499997 */
+  src: url('https://at.alicdn.com/t/font_499997_cghmvahjx2w6d2t9.eot');
+  src: url('https://at.alicdn.com/t/font_499997_cghmvahjx2w6d2t9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_499997_cghmvahjx2w6d2t9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_499997_cghmvahjx2w6d2t9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_499997_cghmvahjx2w6d2t9.svg#iconfont') format('svg');
+}
+.box{
+	width: 100%;
+	height: 1.93rem;
+	background: #00a3ff;
+	
+	overflow: hidden;
+}
+.box .tou{
+	width: 1.0rem;
+	height: 0.5rem;	
+	margin-top: 0.66rem;
+	margin-left: 0.5rem;
+	float: left;
+	/* background: red; */
+	font-size: 0.5rem;
+    color: white;	
+}
+.box a{
+	margin-top: 0.66rem;
+	display: block;
+	float: left;
+	margin-left: 0.2rem;
+	font-size: 0.5rem;
+	color: white;
+}
+.box .tou_you{
+	height: 0.6rem;
+	width: 2.15rem;
+	/* background: pink; */
+	float: right;
+	margin-right: 0.4rem;
+	margin-top: 0.7rem;
+}
+.box .tou_you .icon1{
+	font-size: 0.6rem;
+	display: block;
+	float: left;
+	color: white;
+	font-family: "iconfont";
+}
+.box .tou_you .icon2{
+	font-size: 0.6rem;
+	display: block;
+	float: right;
+	color: white;
+	font-family: "iconfont";
+}
+.q{
+	/* border: 0.01rem solid #dddddd; */
+	height: 2.42rem;
+	width: 100%;
+	/* background: pink; */
+	margin-bottom: 0.24rem;
+   
+}
+.q .q1{
+	width: 3.6rem; 
+	height: 100%;
+	/* background: #ccc; */
+	border-right:  0.01rem solid #dddddd;
+	line-height: 0.54rem;
+	overflow: hidden;
+	float: left;
+	border-top:  0.01rem solid #dddddd;
+	border-bottom:  0.01rem solid #dddddd;
+}
+.q .q1:nth-child(3){
+	border-right:none;
+}
+.q .q1:nth-child(2) .q2{
+		color: #ff5f3e;
+}
+.q .q1:nth-child(3) .q2{
+	color:#ffa200;
+}
+.q .q1 .q2{
+	
+	height: 0.54rem;
+	color: #2395ff;
+	text-align: center;
+	line-height: 0.54rem;
+	font-size: 0.5rem;
+
+    margin-top: 0.65rem;
+
+}
+.q .q1 .q2 p{
+	font-size: 0.28rem;
+	display: inline;
+}
+.q .q1 .q3{
+	height: 0.32rem;
+	color: #666;
+	font-size: 0.3rem;
+	 margin-top: 0.2rem;
+	 text-align: center;
+
+}
+.tu{
+	width: 100%;
+	height: 2.41rem;
+    /* background: pink; */
+    border-top:  0.01rem solid #dddddd;
+    	margin-bottom: 0.24rem;
+}
+.tu img{
+	width: 100%;
+	height: 100%;
+}
+.lan{
+	width: 100%;
+	/* height:16.5rem; */
+/* 	background: pink; */
+	border-top:  0.01rem solid #dddddd;
+	border-bottom:  0.01rem solid #dddddd;
+	box-sizing: border-box;
+}
+.lan .shou{
+	width: 100%;
+	height: 1.5rem;
+	border-bottom:  0.01rem solid #dddddd;
+    display: flex;
+    align-items: center;
+}
+.lan .shou .ico1{
+	font-family: "iconfont";
+	font-size: 0.54rem;
+	color: #4aa5f0;
+	margin-left: 0.48rem;	
+}
+.shou a{
+	font-size: 0.44rem;
+	color: #333;
+	margin-left: 0.48rem;	
+}
+.shou .aa{
+	font-size: 0.32rem;
+	color: 	#999;
+	display: block;
+	float: right;
+    margin-left:4.5rem;	
+}
+.lan .shou:nth-child(8){
+	border-bottom: 0.24rem solid #f5f5f5;
+}
+.lan .shou:nth-child(3){
+	border-top: 0.24rem solid #f5f5f5;
+}
+/* .lan .shou:nth-child(2){
+	 margin-top: 0.2rem;
+} */
+
+.lan .shou:last-child{
+	margin-bottom: 1.5rem;
+}
+
+.hei{
+	width: 100%;
+	height: 1.5rem;
+	background: #f6f6f6;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+}
+
+.hei .zui{
+	width:33.33%;
+	height: 100%;
+/* 	background: yellowgreen; */
+	padding-top: 0.2rem;
+	/* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* line-height: 100%; */
+    text-align: center;
+    float: left;
+}
+
+.hei .zui .ico2{
+	font-family: "iconfont";
+	font-size: 0.6rem;
+    color: #818181;
+    display: block;
+
+}
+.hei .zui a{
+	font-size: 0.27rem;
+	display: block;
+	 color: #818181;
+}
+/* .hei .zui:last-child{
+	color: #0093ff;
+} */
+/* .hei .zui .ico2:last-child{
+	color: #0093ff;
+}
+ */
+
+.hei .zui .ico2a{
+	font-family: "iconfont";
+	font-size: 0.6rem;
+    color: #0093ff;
+    display: block;
+}
+.hei .zui .qs{
+	font-size: 0.27rem;
+	display: block;
+	 color: #0093ff;
+}
+

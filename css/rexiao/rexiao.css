@@ -1,0 +1,307 @@
+@import url("ning.css");
+
+
+.box{
+	width: 100%;
+	height: 4.34rem;
+	/* background: rgba(102, 103, 99, 0.61); */
+	position: relative;
+}
+.box1{
+	width: 100%;
+	height: 3.92rem;
+	background:rgba(102, 103, 99, 0.61);
+}
+
+.box2{
+	width: 100%;
+	height: 1.44rem;
+	/* background: rgba(102, 103, 99, 0.61); */
+	line-height: 1.44rem;
+
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 499997 */
+  src: url('https://at.alicdn.com/t/font_499997_1pf34oy2r56irudi.eot');
+  src: url('https://at.alicdn.com/t/font_499997_1pf34oy2r56irudi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_499997_1pf34oy2r56irudi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_499997_1pf34oy2r56irudi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_499997_1pf34oy2r56irudi.svg#iconfont') format('svg');
+}
+.box3{
+	width: 100%;
+	height: 2.5rem;
+	/* background: yellow; */
+	overflow: hidden;
+}
+.icon1{
+	font-size: 0.8rem;
+	color: white;
+    font-family: "iconfont";
+    margin-left: 0.6rem;
+    display: block;
+    float: left;
+}
+.box2 .icon1:nth-child(2){
+	font-size: 0.48rem;
+	float: right;
+	margin-right: 0.6rem;
+}
+.box2 .icon1:nth-child(3){
+	font-size: 0.6rem;
+	float: right;
+	margin-right: 0.64rem;
+}
+.box2 .icon1:nth-child(4){
+	font-size: 0.58rem;
+	float: right;
+	margin-right: 0.64rem;
+}
+.box4{
+	width: 2.52rem;
+	height: 2.52rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.48rem;
+}
+.box4 img{
+	width: 2.52rem;
+	height: 2.52rem;
+	border-radius: 0.1rem;
+}
+.box3 .a1{
+     font-size: 0.54rem;
+     color: white;
+     margin-top: 0.38rem;
+     display: block;
+     margin-left: 3.32rem;
+}
+.box3 .a2{
+     font-size: 0.3rem;
+     color: #eeeded;
+     margin-top: 0.21rem;
+     display: block;
+     margin-left: 3.32rem;
+}
+.box3 .box5{
+	background: #0097ff;
+	height: 0.44rem;
+	color: white;
+	font-size: 0.3rem;
+	line-height: 0.44rem;
+	width: 2.96rem;
+	border-radius: 0.08rem;
+	text-align: center;
+	margin-left: 3.32rem;
+	margin-top: 0.21rem;
+}
+.box6{
+	width: 100%;
+	height: 1.36rem;
+	text-align: center;
+	line-height: 1.36rem;
+/* 	background: pink; */
+}
+.box6 .icon2{
+	font-size: 0.44rem;
+	color: red;
+	font-family: 'iconfont'; 
+    margin-left: 0.48rem;
+    display: block;
+    float: left;
+}
+.box6 a{
+	font-size: 0.3rem;
+	color: #a0a0a0;
+	display: block;
+	float: left;
+	margin-left: 0.2rem;
+}
+.shang{
+	width: 100%;
+	height: 1.18rem;
+	line-height: 1.18rem;
+	text-align: center;
+	/* background: red; */
+	border-bottom: 0.02rem solid #efefef;
+}
+.shang .a5{
+	display: block;
+	color: #2395ff;
+	font-size: 0.4rem;
+	float: left;
+	margin-left: 0.38rem;
+
+}
+.shang .a6{
+	display: block;
+	color: #333333;
+	font-size: 0.4rem;
+	float: left;
+	margin-left: 0.66rem;
+}
+.list{
+	width: 100%;
+	    height: 100%;
+	    overflow: hidden;
+
+}
+.list .liebiao{
+	width: 20%;
+	float: left;
+}
+.list .liebiao li{
+	width: 100%;
+	height: 1.45rem;
+	border-bottom: 0.01rem solid #efefef;
+	font-size: 0.32rem;
+	
+	line-height: 1.45rem;
+	text-align: center;
+/* 	background: skyblue; */
+}
+.list .liebiao li a{
+	color: #666;
+}
+.list .liebiao li .icona{
+    font-family: 'iconfont'; 
+    font-size: 0.42rem;
+    color: #ff6200;
+}
+.list .liebiao li:first-of-type a{
+    font-size: 0.34rem;
+    color: #333；
+}
+.list .liebiao li:nth-of-type(2) i{
+	font-family: 'iconfont'; 
+    font-size: 0.42rem;
+    color: #25be42;
+}
+.list .wuti{
+	width: 80%;
+	float: left;
+}
+.list .wuti li{
+	width: 100%;
+	height: 3.21rem;
+	
+/* 	background: pink; */
+}
+.list .wuti li .oo{
+	width: 8.04rem;
+	height: 100%;
+	border-bottom: 0.02rem solid #efefef;
+/* 	background: yellowgreen; */
+	margin: 0 auto;
+	overflow: hidden;
+
+	position: relative;
+}
+.list .wuti li .oo img{
+   /*  position: absolute;
+    left: 0;
+    top: 0; */
+    width: 2.25rem;
+    height: 2.25rem;
+    display: block;
+    float: left;
+    border-radius: 0.1rem;
+
+}
+.list .wuti li .oo .zi{
+	color: #333;
+	font-size: 0.38rem;
+	margin-left: 0.3rem;
+	display: block;
+	float: left;
+
+
+}
+.list .wuti li .oo .zi1{
+	color: #a1a1a1;
+	font-size: 0.27rem;
+	margin-left: 0.3rem;
+	display: block;
+	float: left;
+	margin-top: 0.18rem;
+}
+.list .wuti li .oo .zhekou{
+	width: 0.9rem;
+	height: 0.4rem;
+	background:  #ff7117;
+	color: white;
+    line-height: 0.4rem;
+	text-align: center;
+	margin-top: 0.21rem;
+	position: absolute;
+    left: 2.55rem;
+    top: 1.08rem;
+}
+.list .wuti li .oo .zi2{
+	color: #ff5339;
+	font-size: 0.22rem;
+	display: block;
+	float: left;
+	margin-top: 0.21rem;
+	/* margin-left: 0.3rem; */
+	position: absolute;
+    left: 2.55rem;
+    top: 1.6rem;
+}
+.list .wuti li .oo .zi2 p{
+	font-size: 0.36rem;
+	float: left;
+	margin-top: -0.1rem;
+}
+.list .wuti li .oo .zi3{
+    font-size: 0.26rem;
+	color: #999;
+	text-decoration:line-through ;
+    display: block;
+	float: left;	
+	position: absolute;
+    left: 3.55rem;
+    top: 1.8rem;
+}
+.list .wuti li .oo i{
+	font-size: 0.66rem;
+	font-family: 'iconfont'; 
+	color: #2395ff;
+	float: left;	
+	position: absolute;
+    top: 1.7rem;
+   /*  right: 0.3rem; */
+}
+.list .wuti li .oo:last-child{
+	margin-bottom: 1.5rem;
+}
+.di{
+	height: 1.5rem;
+	width: 100%;
+	background: #454547;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	line-height: 1.5rem;
+}
+.di i{
+	font-family: "iconfont";
+	font-size: 0.8rem;
+	color: white;
+	margin-left: 0.4rem;
+	
+	display: block;
+	float: left;
+}
+.di .a7{
+	font-size: 0.36rem;
+	color: #999;
+	margin-left: 0.6rem;
+}
+.di .a8{
+	font-size: 0.36rem;
+	color: #999;
+	display: block;
+	float: right;
+	margin-right: 0.4rem;
+}

@@ -1,0 +1,197 @@
+@import url("ning.css");
+.ding{
+	width: 100%;
+	height: 9.42rem;
+}
+.ding img{
+	width: 100%;
+	height: 9.42rem;
+	position: relative;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 499997 */
+  src: url('https://at.alicdn.com/t/font_499997_e5t88hngoh3bx1or.eot');
+  src: url('https://at.alicdn.com/t/font_499997_e5t88hngoh3bx1or.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_499997_e5t88hngoh3bx1or.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_499997_e5t88hngoh3bx1or.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_499997_e5t88hngoh3bx1or.svg#iconfont') format('svg');
+}
+.ding i{
+	font-size: 0.44rem;
+	color: white;
+    font-family: "iconfont";
+    position: absolute;
+    left: 0.6rem;
+    top: 0.6rem;
+}
+.nei{
+	width: 100%;
+	height: 2.91rem;
+	/* background: red; */
+	position: relative;
+	overflow: hidden;
+	border-bottom: 0.24rem solid #eee;
+}
+
+
+.nei .zi{
+	color: #333;
+	font-size: 0.38rem;
+	margin-left: 0.3rem;
+	display: block;
+	/* float: left; */
+
+
+}
+.nei .zi1{
+	color: #a1a1a1;
+	font-size: 0.27rem;
+	margin-left: 0.3rem;
+	display: block;
+	float: left;
+	margin-top: 0.28rem;
+}
+.nei .zhekou{
+	width: 0.9rem;
+	height: 0.4rem;
+	background:  #ff7117;
+	color: white;
+    line-height: 0.4rem;
+	text-align: center;
+	margin-top: 0.21rem;
+	position: absolute;
+    left:0.3rem;
+    top: 1.3rem;
+}
+.nei .zi2{
+	color: #ff5339;
+	font-size: 0.22rem;
+	display: block;
+	float: left;
+	margin-top: 0.21rem;
+	/* margin-left: 0.3rem; */
+	position: absolute;
+    left: 0.3rem;
+    top: 1.9rem;
+}
+.nei .zi2 p{
+	font-size: 0.36rem;
+	float: left;
+}
+.nei .zi3{
+    font-size: 0.26rem;
+	color: #999;
+	text-decoration:line-through ;
+
+    display: block;
+	float: left;	
+	position: absolute;
+    left: 1.2rem;
+    top: 2.15rem;
+}
+.nei .jiaru{
+	background: #2395ff;
+	width: 2.4rem;
+	height: 0.72rem;
+	line-height: 0.72rem;
+	text-align: center;
+	font-size: 0.35rem;
+	color: white;
+	border-radius: 0.5rem;
+	position: absolute;
+	bottom: 0.38rem;
+	right: 0.45rem;
+}
+.pin{
+	width: 100%;
+	height: 3.28rem;
+/* 	background: yellow; */
+	border-bottom: 0.01rem solid #eee;
+}
+.pin i{
+	font-family: "iconfont";
+	font-size: 0.96rem;
+	display: block;
+	color: #a2d9ff;
+	margin-top: 0.45rem;
+	margin-left: 0.45rem;
+	float: left;
+}
+.a25{
+	font-size: 0.36rem;
+	display: block;
+	float: left;
+    color: #333;
+   /*  margin-top: 0.45rem; */
+ /*    margin-left: 0.45rem; */
+}
+.pin .bop{
+	width: 9.15rem;
+	height: 1.04rem;
+/* 	background: skyblue; */
+	float: right;
+	margin-bottom: 0.35rem;
+	 margin-top: 0.45rem;
+	 position: relative;
+}
+.pin .a26{
+	font-size: 0.	24rem;
+	display: block;
+	float: left;
+    color: #bbbbbb;
+    margin-left: 0.3rem;
+}
+.pin .a27{
+	font-size:0.3rem;
+	display: block;
+	/* float: left; */
+    color: #666;
+   /*  margin-left: 0.3rem; */
+    margin-top: 0.6rem;
+    padding-right: 0.2rem;
+    box-sizing: border-box;
+    border-right: 0.01rem solid #ddd;
+}
+.pin .a27 p{
+	display: inline;
+	color: #ff6000;
+}
+.bop1{
+		width: 9.15rem;
+	    height: 1.04rem;
+	  /*   background: skyblue; */
+	    float: right;
+	    color: #333; 
+	    font-size: 0.36rem;
+
+}
+.di{
+	height: 1.5rem;
+	width: 100%;
+	background: #454547;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	line-height: 1.5rem;
+}
+.di i{
+	font-family: "iconfont";
+	font-size: 0.8rem;
+	color: white;
+	margin-left: 0.4rem;
+	
+	display: block;
+	float: left;
+}
+.di .a7{
+	font-size: 0.36rem;
+	color: #999;
+	margin-left: 0.6rem;
+}
+.di .a8{
+	font-size: 0.36rem;
+	color: #999;
+	display: block;
+	float: right;
+	margin-right: 0.4rem;
+}
